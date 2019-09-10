@@ -33,9 +33,9 @@ public class Week1 {
 			c = arr[i].charAt(0);
 			
 			if(count == 1) {
-				System.out.println(c);
+				System.out.print(c);
 			} else {
-				System.out.println(count + "" + c);
+				System.out.print(count + "" + c);
 			}
 		}
 	}
