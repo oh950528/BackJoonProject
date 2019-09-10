@@ -32,6 +32,11 @@ public class Week1 {
 			count = arr[i].length();
 			c = arr[i].charAt(0);
 			
+			if(count == 1) {
+				System.out.println(c);
+			} else {
+				System.out.println(count + "" + c);
+			}
 		}
 	}
 }
