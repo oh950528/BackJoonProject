@@ -39,6 +39,6 @@ public class Week1 {
 			}
 		}
 		
-		scan.close();
+		scan.close();//
 	}
 }
