@@ -38,5 +38,7 @@ public class Week1 {
 				System.out.print(count + "" + c);
 			}
 		}
+		
+		scan.close();
 	}
 }
