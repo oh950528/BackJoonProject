@@ -11,9 +11,14 @@ public class Week2 {
 		int index = scan.nextInt();
 
 		int arr[] = new int[index];
+		int overHeight;
 
 		for(int i = 0; i < index; i++) {
+			overHeight = scan.nextInt();
 
 		}
+
+
+
 	}
 }
