@@ -17,8 +17,8 @@ public class Week2 {
 			overHeight = scan.nextInt();
 
 			for(int j = 0; j < index; index++) {
-				if(overHeight == 0) {
-					arr[i] = i + 1;
+				if(overHeight == 0 && arr[i] == 0) {
+					arr[j] = i + 1;
 					break;
 				} else if(arr[j] == 0) {
 					overHeight--;
