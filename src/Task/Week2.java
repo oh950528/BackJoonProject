@@ -18,7 +18,7 @@ public class Week2 {
 
 			for(int j = 0; j < index; index++) {
 				if(overHeight == 0) {
-					arr[j] = i + 1;
+					arr[i] = i + 1;
 					break;
 				} else if(arr[j] == 0) {
 					overHeight--;
