@@ -18,6 +18,17 @@ public class Week3 {
 		while(scan.hasNext()) {
 			str = scan.nextLine();
 			String[] arr = str.split(" ");
+
+			for(int i = 0; i < arr.length; i++) {
+				String s = arr[i];
+				for(int j = 0; j < s.length(); i++) {
+					index = s.charAt(i) - 'a';
+					check[index]++;
+					if(check[index] > max) {
+						max = check[index];
+					}
+				}
+			}
 		}
 
 		for(int i = 0; i < check.length; i++) {
