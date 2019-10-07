@@ -21,7 +21,7 @@ public class Week3 {
 
 			for(int i = 0; i < arr.length; i++) {
 				String s = arr[i];
-				for(int j = 0; j < s.length(); i++) {
+				for(int j = 0; j < s.length(); j++) {
 					index = s.charAt(i) - 'a';
 					check[index]++;
 					if(check[index] > max) {
