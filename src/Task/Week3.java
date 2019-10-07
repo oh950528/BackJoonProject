@@ -15,7 +15,7 @@ public class Week3 {
 		int max = 0;
 		int index;
 
-		while(scan.hasNext()) {
+		while(scan.hasNextLine()) {
 			str = scan.nextLine();
 			String[] arr = str.split(" ");
 
