@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Week3 {
 
 	public static void main(String[] args) {
+
 		Scanner scan = new Scanner(System.in);
 
 		String str;
@@ -22,7 +23,7 @@ public class Week3 {
 			for(int i = 0; i < arr.length; i++) {
 				String s = arr[i];
 				for(int j = 0; j < s.length(); j++) {
-					index = s.charAt(i) - 'a';
+					index = s.charAt(j) - 'a';
 					check[index]++;
 					if(check[index] > max) {
 						max = check[index];
@@ -31,9 +32,9 @@ public class Week3 {
 			}
 		}
 
-		for(int i = 0; i < check.length; i++) {
+		for(int i = 0; i < 26; i++) {
 			if(check[i] == max) {
-				System.out.println((char) ('a' + i));
+				System.out.print((char) ('a' + i));
 			}
 		}
 	}
