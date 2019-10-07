@@ -10,7 +10,7 @@ public class Week3 {
 		Scanner scan = new Scanner(System.in);
 
 		String str;
-		int[] check = new int[]26;
+		int[] check = new int[26];
 
 		int max = 0;
 		int index;
